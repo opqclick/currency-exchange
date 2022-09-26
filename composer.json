@@ -1,0 +1,25 @@
+{
+    "name": "opqclick/currency-exchange",
+    "description": "The package must fetch the exchange rate of the day",
+    "autoload": {
+        "psr-4": {
+            "Opqclick\\CurrencyExchange\\": "src/"
+        },
+        "files": [
+            "src/helpers/rates.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Opu Hasnat",
+            "email": "opqclick@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Opqclick\\CurrencyExchange\\Tests\\" : "tests"
+        }
+    }
+}
